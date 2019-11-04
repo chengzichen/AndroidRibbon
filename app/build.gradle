@@ -29,7 +29,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
     implementation "androidx.recyclerview:recyclerview:$versions.recyclerView"
     implementation "androidx.cardview:cardview:$versions.cardView"
-    implementation project(":androidribbon")
+    implementation "com.github.skydoves:androidribbon:1.0.1"
 }
 
 apply from: '../spotless.gradle'
